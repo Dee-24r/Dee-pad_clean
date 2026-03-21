@@ -1,30 +1,40 @@
-This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad
+This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad (which I'm still pushing files to by the way).
 
-# My HackPad
-This is the design for my first ever macropad.
+# Deepad
+This repo contains the design files (electrical and cad) for deepad v.1.0, :) my first ever macropad.
 
 ## Overview
-![PCB Screenshot](images/cad_design_cool_view.png)
+![PCB Screenshot](images/cad_design_cool_view.png) <br>
 My macropad contains 5 key switches, a rotary encoder with a switch, an OLED display, and 3 RGB LEDs. It uses the [SEEED Xia0 rp-2040](https://wiki.seeedstudio.com/XIAO-RP2040/) microcontroller.
 
 I can't wait to start assembling and soldering! >> will update when I do.
 
-## Repo information
+## Repo info
 
 This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad. This repo mainly contains the schematic and pcb designs (along with the (custom) symbol and footprint libraries used), the case and pcb cad designs (in .STEP files), gerber files for pcb production (gerber.zip), and the firmware for the macropad. There is also an image folder (If you're scooping around, that's what you should open - it contains screenshot of every important file/design, and so does this README).
 
+## Repo content
+
 [Go to cad files](deepad_cad/)
+
 [Go to firmware](deepad_firmware/)
+
 [Go to schematic and pcb](deepad_sch_and_pcb/)
+
 [Go to schematic and pcb](images/) This is where you want to go!
 
-[Go to cad files](#-bill-of-materials-bom)
+
+### README content
+
+[How I made my macropad](#making-my-macropad---with-pics)
+
+[Bill of Materials](#-bill-of-materials-bom)
 
 
 ## Making my macropad - with pics
 This is my first time creating a macropad. I began by designing the schematic and pcb, following a tutorial which only added 3 keys and the microcontroller. I then learned to add other components - the rotary encoder, the OLED display and RGB leds.
 
-![PCB Screenshot](images/schematic.png)
+![Schematic Screenshot](images/schematic.png)
 
 Next, I assigned footprints, and updated my PCB. I wired the PCB and learned to use vias. After wiring, I added the edge cuts and exported my STEP file to use in Fusion 360.
 
@@ -32,8 +42,8 @@ Next, I assigned footprints, and updated my PCB. I wired the PCB and learned to 
 
 And these are 3d views of the pcb (front and back)
 
-![PCB Screenshot](images/pcb_3dview_front.png)
-![PCB Screenshot](images/pcb_3dview_back.png)
+![PCB 3d view front Screenshot](images/pcb_3dview_front.png)
+![PCB 3d view back Screenshot](images/pcb_3dview_back.png)
 
 I love the way I'm just listing steps, and you're probably thinking everything went smooth and step by step <3. This was not the case!
 
