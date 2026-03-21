@@ -76,7 +76,7 @@ I also would love to see what I can do with this when I hack up a game - (coming
 
 **More updates on next steps coming soon.**
 
-Big Thank you to Statis [https://statis.hackclub.com], one of Hack Club's [https://hackclub.com] events - funding this project. Thanks Hack Club, Thanks Statis.
+Big Thank you to [Statis](https://statis.hackclub.com), one of [Hack Club's](https://hackclub.com) events. They're funding this project and many more by paying for all components. Thanks Hack Club, Thanks Statis.
 
 ## Bill of Materials (BOM)
 
