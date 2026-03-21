@@ -16,8 +16,8 @@ This is the clean folder (omiting junk and system files) for https://github.com/
 
 ### Repo content
 
-[Go to cad files](deepad_cad/)
-[Go to firmware](deepad_firmware/)
+[Go to cad files](deepad_cad/)<br>
+[Go to firmware](deepad_firmware/)<br>
 [Go to schematic and pcb](deepad_sch_and_pcb/)
 [Go to schematic and pcb](images/) This is where you want to go!
 
