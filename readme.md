@@ -82,6 +82,8 @@ Big Thank you to [Statis](https://statis.hackclub.com), one of [Hack Club's](htt
 
 | Name | Quantity | Cost Per Item (USD) | Total (USD) | Purpose | Distributor | Link |
 |------|----------|---------------------|-------------|---------|-------------|------|
+|3D printed case|The case for my macropad|1|5.30|https://app.slack.com/client/E09V59WQY1E/C083P4FJM46|Printing Legion|
+|PCB fabrication and shipping|My fabricated pcb + shipping costs|1|6.32|https://trade.jlcpcb.com/checkout/payMethod/?uni|
 | AliExpress shipping and fees | 1 | $2.27 | $2.27 | Shipping | AliExpress | [Link](https://www.aliexpress.us/p/trade/confirm.html?availableProductShopcartIds=81025195134366,81025054474920,81025239479329,81025054362285,81025088699059,81025088643368&aeOrderFrom=main_shopcart&intentionalPayMethod=&curPageLogUid=1774064517052_SwJmHd&spm=a2g0o.cart.0.0) |
 | DigiKey tax and shipping | 1 | $7.84 | $7.84 | Shipping | DigiKey | [Link](https://www.digikey.com/ordering/Ship) |
 | M3x5x4mm heatset inserts | 99 | $0.01 | $0.99 | Secure threading for M3 screws | AliExpress | [Link](https://www.aliexpress.us/item/2255800046543591.html) |
@@ -93,4 +95,4 @@ Big Thank you to [Statis](https://statis.hackclub.com), one of [Hack Club's](htt
 | EC11 rotary encoder | 1 | $4.49 | $4.49 | Rotational input and button control | DigiKey | [Link](https://www.digikey.com/en/products/detail/alps-alpine/EC11E18244AU/19529126) |
 | Seeed XIAO RP2040 | 1 | $4.68 | $4.68 | Main microcontroller and control unit | DigiKey | [Link](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010428/14672129) |
 
-**Total cost: $30.94**
+**Total cost: $42.56**
