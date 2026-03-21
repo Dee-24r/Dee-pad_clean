@@ -11,26 +11,37 @@ I can't wait to start assembling and soldering! >> will update when I do.
 
 ## Repo info
 
-This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad. This repo mainly contains the schematic and pcb designs (along with the (custom) symbol and footprint libraries used), the case and pcb cad designs (in .STEP files), gerber files for pcb production (gerber.zip), and the firmware for the macropad. There is also an image folder (If you're scooping around, that's what you should open - it contains screenshot of every important file/design, and so does this README).
+This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad. This repo mainly contains the schematic and pcb designs (along with the (custom) symbol and footprint libraries used), the case and pcb cad designs (in .STEP files), gerber files for pcb production (gerber.zip), and the firmware for the macropad. There is also an image folder (If you're scooping around, this is what you should open - it contains screenshots of every important file/design, and so does this README).
+
 
 
 ### Repo content
 
-[Go to cad files](deepad_cad/)
-[Go to firmware](deepad_firmware/)
-[Go to schematic and pcb](deepad_sch_and_pcb/)
-[Go to schematic and pcb](images/) This is where you want to go!
+[Go to cad files](deepad_cad/)<br>
+[Go to firmware](deepad_firmware/)<br>
+[Go to schematic and pcb](deepad_sch_and_pcb/)<br>
+[View screenshot of all files](images/) This is where you want to go!
 
 
 ### README content
 
-[How I made my macropad](#making-my-macropad---with-pics)
-
+[How I made my macropad](#making-my-macropad---with-pics)<br>
 [Bill of Materials](#-bill-of-materials-bom)
 
 
 ## Making my macropad - with pics
-This is my first time creating a macropad. I began by designing the schematic and pcb, following a tutorial which only added 3 keys and the microcontroller. I then learned to add other components - the rotary encoder, the OLED display and RGB leds.
+This is my first time creating a macropad. Here are the components I've designed it with:
+- 1x unsoldered Seeed XIAO RP2040 - the microcontroller
+- 5x MX-Style switches - basically keys (keyboard keys)
+- 1x EC11 Rotary encoder - it's like a knob and produces rotational value
+- 1x 0.91 inch OLED display - display screen
+- 5x white blank DSA keycaps - keycaps for the keys
+- 3x SK6812 MINI-E LEDs - these are rgb leds
+- 4x M3x16mm screws - for screwing my top and bottom case together
+- 4x M3x5mx4mm heatset inserts - same as last one - they go together
+
+
+I began by designing the schematic and pcb, following a tutorial which only added 3 keys and the microcontroller. I then learned to add other components - the rotary encoder, the OLED display and RGB leds.
 
 ![Schematic Screenshot](images/schematic.png)
 
@@ -43,13 +54,19 @@ And these are 3d views of the pcb (front and back)
 ![PCB 3d view front Screenshot](images/pcb_3dview_front.png)
 ![PCB 3d view back Screenshot](images/pcb_3dview_back.png)
 
-I love the way I'm just listing steps, and you're probably thinking everything went smooth and step by step <3. This was not the case!
+BRUH! The way I'm just listing steps and you're probably thinking everything went smooth and step by step <3. This was not the case!
 
 Fusion 360 was a hassle! It's not a bad software; I just didn't know how to use it. But I'm glad I learned.
 
-I drew the 
-Everything I did, I did with the help of and with much searching online.
-I'm up till 1a.m. writing this README because why have I not shipped my project?
+I started by drawing rectangles for the base of my case, adding holes for the screws and then extruding the shape - outer part of the case is 13mm deep and the inner is 3mm thick. I then attached my PCB .step file to "project" (I had so much trouble understanding how this worked) but got through it anyways. I projected my base case (not recursion :|) to make my top case, which was also 3mm thick. I rounded all my edges a bit and then added the holes for the keys and other components. Finally I added the usb cutout and extruded all holes. I later came back to add a few text decorations to the design (creative enough -- chee!) Here's my full cad design:
+
+![CAD screenshot](images/cad_design_cool_view.png)
+
+Next stage was the firmware! You can open up [the firmware folder](deepad_firmware/) to see all the code. It conatins the keyboard.json, rules.mk, config.h, and keymap.c files (keymap.c will still be edited to match my key functions).
+
+I used QMK MSYS to create the folder and then edited the code to match my keys and board. And that was it!
+
+Everything I did, I did with the help of many friends in the statis and blueprint channels, and with much *searching online and asking AI many many many questions*. I'm happy with my work and I can't wait to start assembling and soldering.
 
 
 ## Macropad use
