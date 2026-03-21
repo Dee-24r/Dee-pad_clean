@@ -13,14 +13,12 @@ I can't wait to start assembling and soldering! >> will update when I do.
 
 This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad. This repo mainly contains the schematic and pcb designs (along with the (custom) symbol and footprint libraries used), the case and pcb cad designs (in .STEP files), gerber files for pcb production (gerber.zip), and the firmware for the macropad. There is also an image folder (If you're scooping around, that's what you should open - it contains screenshot of every important file/design, and so does this README).
 
-## Repo content
+
+### Repo content
 
 [Go to cad files](deepad_cad/)
-
 [Go to firmware](deepad_firmware/)
-
 [Go to schematic and pcb](deepad_sch_and_pcb/)
-
 [Go to schematic and pcb](images/) This is where you want to go!
 
 
