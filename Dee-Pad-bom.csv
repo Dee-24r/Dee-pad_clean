@@ -1,4 +1,5 @@
 Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"1N4148 D0-35 diodes","To use with my switches in the key matrix",10,0.47,"https://www.digikey.com/en/products/detail/onsemi/1N4148/458603","Digikey"
 "3D printed case","The case for my macropad",1,6.00,"https://app.slack.com/client/E09V59WQY1E/C083P4FJM46","Printing Legion"
 "PCB fabrication and shipping","My fabricated pcb - the base for the macropad",1,6.32,"https://trade.jlcpcb.com/checkout/payMethod/?unionSettleId=ef6227353eb342a4b2aa266e4f1f0516&systemType=order_pcb&orderTypes=order_pcb&calType=PRE_CAL&couponDemo=1&spm=Jlcpcb.Partcart.1002","JLCPCB"
 "Ali Express shipping and fees","Shipping",1,2.27,"https://www.aliexpress.us/p/trade/confirm.html?availableProductShopcartIds=81025195134366,81025054474920,81025239479329,81025054362285,81025088699059,81025088643368&aeOrderFrom=main_shopcart&intentionalPayMethod=&curPageLogUid=1774064517052_SwJmHd&spm=a2g0o.cart.0.0","Ali Express"
