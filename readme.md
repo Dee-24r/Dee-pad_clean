@@ -39,7 +39,7 @@ This is my first time creating a macropad. Here are the components I've designed
 - 4x M3x5mx4mm heatset inserts - same as last one - they go together
 
 
-I began by designing the schematic and pcb, following a tutorial which only added 3 keys and the microcontroller. I then learned to add other components - the rotary encoder, the OLED display and RGB leds.
+I began by designing the schematic and pcb. I added all my components and wired them.
 
 ![Schematic Screenshot](images/schematic.png)
 
