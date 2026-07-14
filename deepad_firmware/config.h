@@ -4,7 +4,7 @@
 
 //RGB
 #define WS2812_DI_PIN GP3 //heard it uses the same protocol as ws2812
-#define RGBLIGHT_LED_COUNT 2
+#define RGBLIGHT_LED_COUNT 3
 
 //OLED (I2C)
 #define I2C_DRIVER I2CD1

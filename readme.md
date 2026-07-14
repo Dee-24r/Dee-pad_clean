@@ -7,6 +7,12 @@ I'm currently still assembling my macropad and updating the repo as I do.
 ![PCB Screenshot](images/cad_design_cool_view.png) <br><br>
 My macropad contains 5 key switches, a rotary encoder with a switch, an OLED display, and 3 RGB LEDs. It uses the [SEEED Xiao RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) microcontroller.
 
+## Demo Video
+<video width="100%" controls muted playsinline>
+	<source src="Macropad Demo.mp4" type="video/mp4">
+	Your browser does not support embedded video.
+</video>
+
 ## Repo info
 
 This repo contains the design files (electrical and cad) for deepad v.1.0, :) my macropad. I added the schematic and pcb designs (along with the (custom) symbol and footprint libraries used), the case and pcb cad designs (in .STEP files), gerber files for pcb production (gerber.zip), and the firmware for the macropad. There is also an image folder (If you're scooping around, this is what you should open - it contains screenshots of every important file/design, and so does this README).

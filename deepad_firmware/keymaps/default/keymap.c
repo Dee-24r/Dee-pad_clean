@@ -6,14 +6,54 @@
 enum layer_names {
     _BASE,
 };
+#ifdef RGBLIGHT_ENABLE
+static uint8_t rgb_flash_count = 0;
+static uint16_t rgb_flash_timer = 0;
+static bool rgb_flash_on = false;
+#endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_BASE] = LAYOUT(
-        KC_P7, KC_P8, KC_P4,
-        KC_P5, KC_P6, KC_P0
+        KC_F, KC_U, KC_ENT,
+        KC_N, KC_M, KC_I
     )
 };
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+#ifdef RGBLIGHT_ENABLE
+    if (keycode == KC_ENT && record->event.pressed) {
+        rgb_flash_count = 4;
+        rgb_flash_on = true;
+        rgb_flash_timer = timer_read();
+
+        rgblight_enable_noeeprom();
+        rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+        rgblight_sethsv_noeeprom(HSV_WHITE);
+    }
+#endif
+
+    return true;
+}
+
+void matrix_scan_user(void) {
+#ifdef RGBLIGHT_ENABLE
+    if (rgb_flash_count > 0 && timer_elapsed(rgb_flash_timer) > 120) {
+        rgb_flash_timer = timer_read();
+        rgb_flash_on = !rgb_flash_on;
+
+        if (rgb_flash_on) {
+            rgblight_enable_noeeprom();
+            rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+            rgblight_sethsv_noeeprom(HSV_WHITE);
+        } else {
+            rgblight_disable_noeeprom();
+        }
+
+        rgb_flash_count--;
+    }
+#endif
+}
 
 const uint16_t PROGMEM encoder_map[][1][2] = {
     [0] = { ENCODER_CCW_CW(MS_WHLU, MS_WHLD) },
