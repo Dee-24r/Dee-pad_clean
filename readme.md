@@ -10,8 +10,10 @@ My macropad contains 5 key switches, a rotary encoder with a switch, an OLED dis
 ## Demo Video
 <video width="100%" controls muted playsinline>
 	<source src="Macropad%20Demo.mp4" type="video/mp4">
-	<a href="Macropad%20Demo.mp4">Download the demo video</a>
+	Your browser does not support embedded video.
 </video>
+
+[Macropad Demo.mp4](Macropad%20Demo.mp4)
 
 ## Assembly Progress
 ![PCB Assembly](images/pcb_assembly.jpeg)
