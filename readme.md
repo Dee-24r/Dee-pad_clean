@@ -13,6 +13,10 @@ My macropad contains 5 key switches, a rotary encoder with a switch, an OLED dis
 	Your browser does not support embedded video.
 </video>
 
+## Assembly Progress
+![PCB Assembly](images/pcb_assembly.jpeg)
+![PCB Assembly Back](images/pcbassembly_back.jpeg)
+
 ## Repo info
 
 This repo contains the design files (electrical and cad) for deepad v.1.0, :) my macropad. I added the schematic and pcb designs (along with the (custom) symbol and footprint libraries used), the case and pcb cad designs (in .STEP files), gerber files for pcb production (gerber.zip), and the firmware for the macropad. There is also an image folder (If you're scooping around, this is what you should open - it contains screenshots of every important file/design, and so does this README).
@@ -66,7 +70,6 @@ Next stage was the firmware! You can open up [the firmware folder](deepad_firmwa
 I used QMK MSYS to create the folder and then edited the code to match my keys and board. And that was it!
 
 I've soldered most of the parts onto my board. I've actually made more progress after this picture. I'll update the repo later.
-![Assembly so far](images/pcbassemblyprogress27th.jpeg) <br>
 
 Everything I did, I did with the help of many friends in the stasis and blueprint channels, and with much *searching online and asking AI many many many questions*. I'm happy with my work and can't wait to start using it!!
 
