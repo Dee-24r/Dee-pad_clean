@@ -1,21 +1,17 @@
-This is the clean folder (omiting junk and system files) for https://github.com/Dee-24r/My_Hackpad (which I'm still pushing files to by the way).
-
 # Deepad
-I'm currently still assembling my macropad and updating the repo as I do.
-
-## Overview
-![PCB Screenshot](images/cad_design_cool_view.png) <br><br>
-My macropad contains 5 key switches, a rotary encoder with a switch, an OLED display, and 3 RGB LEDs. It uses the [SEEED Xiao RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) microcontroller.
 
 ## Demo Video
-<video width="100%" controls muted playsinline>
-	<source src="Macropad%20Demo.mp4" type="video/mp4">
-	Your browser does not support embedded video.
-</video>
+https://github.com/user-attachments/assets/2e771e5b-e012-48fb-b1c1-769b4b42860d
+
+## Overview
+
+![PCB Screenshot](images/cad_design_cool_view.png) <br><br>
+My macropad contains 5 key switches, a rotary encoder with a switch, an OLED display, and 3 RGB LEDs. It uses the [SEEED Xiao RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) microcontroller.
 
 [Macropad Demo.mp4](Macropad%20Demo.mp4)
 
 ## Assembly Progress
+So, I'm gonna re-3d print the case, because it ain't gonna fit with the buttons already soldered. This time, they won't have divided 19.05 key holes. Just a large hole, they all come from.
 ![PCB Assembly](images/pcb_assembly.jpeg)
 ![PCB Assembly Back](images/pcbassembly_back.jpeg)
 
