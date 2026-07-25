@@ -4,7 +4,8 @@
 https://github.com/user-attachments/assets/2e771e5b-e012-48fb-b1c1-769b4b42860d
 
 ## Overview
-
+![assembled-no-case-yet](images/caps.jpeg)
+<br>
 ![PCB Screenshot](images/cad_design_cool_view.png) <br><br>
 My macropad contains 5 key switches, a rotary encoder with a switch, an OLED display, and 3 RGB LEDs. It uses the [SEEED Xiao RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) microcontroller.
 
