@@ -29,3 +29,9 @@ Please, do well to zoon in on the front of the OLED :(
 Look at those yummy joints :(
     
 ![Current back](images/current%20back.jpeg)
+
+
+---- CONTINUATION -----
+Soldered my micro at the airport months ago, and tested it out w two keyboard testers. I noticed I had cold joints cuz some of two keys weren't working so I soldered thre front of the diodes as well! i then added the keycaps and all of that at outpost irl! And just like that, we are done! Not long ago, I made it do the git command things I wanted it to w Arduino code (some of the code was ai gen'd) and I just changed the columns and rows and pins to match my device and ran it! I used many google searches and ai resources but couldn't really find out what was wrong w the code, cuz it DID correctly type out git add . and git status, but it kept typing repeatedly when i clicked the button just once!
+
+It works tho, just in a weird way, lol! I have a feeling the issue was w my hardware itself, but not sure!

@@ -6,6 +6,7 @@
 enum layer_names {
     _BASE,
 };
+
 #ifdef RGBLIGHT_ENABLE
 static uint8_t rgb_flash_count = 0;
 static uint16_t rgb_flash_timer = 0;

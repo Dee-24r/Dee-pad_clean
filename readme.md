@@ -1,5 +1,8 @@
 # Deepad
 
+"testing out git commands w macro"
+"testing out test    ing kkjk"
+
 ## Demo Video
 https://github.com/user-attachments/assets/2e771e5b-e012-48fb-b1c1-769b4b42860d
 
