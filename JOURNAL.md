@@ -93,3 +93,4 @@ I learned to use the editors, tho! Can't wait to finish this project and make mo
 
 
 this was design stage journal. please continue in blog.md!
+https://github.com/Dee-24r/Dee-pad_clean/blob/main/blog.md
