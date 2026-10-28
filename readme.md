@@ -3,8 +3,15 @@
 "testing out git commands w macro"
 "testing out test    ing kkjk"
 
-## Demo Video
+## Demo Videoss (2)!
+
+### Type and scroll with QMK Firmware
+
 https://github.com/user-attachments/assets/2e771e5b-e012-48fb-b1c1-769b4b42860d
+
+### Git commands with Arduino code (malfunctioning)
+
+https://github.com/user-attachments/assets/827a11e4-f2cd-4bd8-a843-9fae9b40dcb5
 
 ## Overview
 ![assembled-no-case-yet](images/caps.jpeg)
