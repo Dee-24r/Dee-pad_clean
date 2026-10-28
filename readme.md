@@ -1,8 +1,5 @@
 # Deepad
 
-"testing out git commands w macro"
-"testing out test    ing kkjk"
-
 ## Demo Videoss (2)!
 
 ### Type and scroll with QMK Firmware
